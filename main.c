@@ -1,19 +1,27 @@
 #include <stdio.h>
 #include "functions.h"
+#include "file.h"
+#include "pointer.h"
+#include "tst_list.h"
 
 int main(int argc, char *argv[]){
- char *name[] = {"sophie","catherine"};
- float result;
- float nb, fun(float);
- system("clear");
- printArg(argc, argv);
- printf("%f\n",function(1, fun));
- printf("%d\n",addition(1,2,3,4,5,0));
- printf("%d\n",addition(2,4,8,0));
- system("ls");
- writeFile();
- printf("\n");
- return 0;
+  test();
+  /* float add(float), mul(float), nb=3.0;
+  system("clear");
+  // Inputs program using
+  printArg(argc, argv);
+  // Function pointer
+  printf("%f\n",function(nb, add));
+  printf("%f\n",function(nb, mul));
+  // Variable number of arguments
+  printf("%d\n",addition(1,2,3,4,5,0));
+  printf("%d\n",addition(2,4,8,0));
+  // Linux command executed by program
+  system("ls");
+  // File writing
+  writeFile();
+  printf("\n");*/
+  return 0;
 }
  /*
  short int   i; // 16 bits 
