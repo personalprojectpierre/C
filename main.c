@@ -1,13 +1,17 @@
 #include <stdio.h>
+
 #include "functions.h"
 #include "file.h"
 #include "pointer.h"
+
 #include "tst_list.h"
+#include "tst_functions.h"
 
 int main(int argc, char *argv[]){
-  test();
-  /* float add(float), mul(float), nb=3.0;
-  system("clear");
+  float add(float), mul(float), nb=3.0;
+  //test();
+  test_functions();  
+  //system("clear");
   // Inputs program using
   printArg(argc, argv);
   // Function pointer
@@ -17,10 +21,10 @@ int main(int argc, char *argv[]){
   printf("%d\n",addition(1,2,3,4,5,0));
   printf("%d\n",addition(2,4,8,0));
   // Linux command executed by program
-  system("ls");
+  //system("ls");
   // File writing
   writeFile();
-  printf("\n");*/
+  printf("\n");
   return 0;
 }
  /*
